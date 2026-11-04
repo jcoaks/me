@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jcoaks",
+  "compatibility_date": "2026-11-03",
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    { "pattern": "jcoaks.com", "custom_domain": true },
+    { "pattern": "www.jcoaks.com", "custom_domain": true }
+  ]
+}
